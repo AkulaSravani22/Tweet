@@ -12,6 +12,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
 @Entity
+@Table(name="users")
 public class Tweet {	
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
